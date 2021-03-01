@@ -10,11 +10,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Darryl Lopez Fabian <lalekidman@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "pm2": "^4.5.5",
     "uuid": "^8.3.2"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "simple chunk uploader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalekidman/simple-blob-chunk-uploader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lalekidman/simple-blob-chunk-uploader/issues"
+  },
+  "homepage": "https://github.com/lalekidman/simple-blob-chunk-uploader#readme"
 }
