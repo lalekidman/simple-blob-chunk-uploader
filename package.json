@@ -1,0 +1,20 @@
+{
+  "name": "blob-chunk-upload",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "pm2 ./dist/index.js",
+    "dev:watch": "tsc -w",
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Darryl Lopez Fabian <lalekidman@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "pm2": "^4.5.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
